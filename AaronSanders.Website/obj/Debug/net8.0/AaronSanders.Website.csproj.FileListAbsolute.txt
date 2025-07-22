@@ -31,3 +31,5 @@ D:\dev\ASPNET\Sanders_IS370_ASPWEBAPP\AaronSanders\AaronSanders.Website\obj\Debu
 D:\dev\ASPNET\Sanders_IS370_ASPWEBAPP\AaronSanders\AaronSanders.Website\obj\Debug\net8.0\AaronSanders.Website.pdb
 D:\dev\ASPNET\Sanders_IS370_ASPWEBAPP\AaronSanders\AaronSanders.Website\obj\Debug\net8.0\AaronSanders.Website.genruntimeconfig.cache
 D:\dev\ASPNET\Sanders_IS370_ASPWEBAPP\AaronSanders\AaronSanders.Website\obj\Debug\net8.0\ref\AaronSanders.Website.dll
+D:\dev\ASPNET\Sanders_IS370_ASPWEBAPP\AaronSanders\AaronSanders.Website\bin\Debug\net8.0\data\products.json
+D:\dev\ASPNET\Sanders_IS370_ASPWEBAPP\AaronSanders\AaronSanders.Website\obj\Debug\net8.0\AaronSanders.Website.sourcelink.json

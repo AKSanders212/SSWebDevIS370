@@ -1,7 +1,12 @@
+using AaronSanders.Website.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+// Adding the JsonFileProductServices service from the tutorial
+builder.Services.AddTransient<JsonFileProductServices>();
 
 var app = builder.Build();
 
