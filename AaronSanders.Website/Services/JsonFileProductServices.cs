@@ -13,10 +13,10 @@ using System.Text.Json;
 
 namespace AaronSanders.Website.Services
 {
-	public class JsonFileProductServices
+	public class JsonFileProductService
 	{
 		// Setting and then getting the WebHostEnvironment
-		public JsonFileProductServices(IWebHostEnvironment webHostEnvironment) {
+		public JsonFileProductService(IWebHostEnvironment webHostEnvironment) {
 
 			// Setting the webHostEnvironment
 			WebHostEnvironment = webHostEnvironment;

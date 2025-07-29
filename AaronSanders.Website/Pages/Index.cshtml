@@ -20,3 +20,23 @@
     <h1 class="display-4">Hello ASP.NET Core! Its Aaron Keith Sanders! G00225605</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<!-- For loop to list all of the products on the Razor page view by Title-->
+<!-- Styling Update: nested div containers for the product cards-->
+<!-- I had to use a different div class for the table of rows and columns for styling-->
+<!-- This was because div class card was deprecated in 2025-->
+<div class="container product-grid">
+    <div class="row">
+        @foreach (var product in Model.Products)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-img" style="background-image: url('@product.Image');"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Title</h5>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

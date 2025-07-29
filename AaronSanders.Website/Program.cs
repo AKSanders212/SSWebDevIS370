@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 
 // Adding the JsonFileProductServices service from the tutorial
-builder.Services.AddTransient<JsonFileProductServices>();
+builder.Services.AddTransient<JsonFileProductService>();
 
 var app = builder.Build();
 
