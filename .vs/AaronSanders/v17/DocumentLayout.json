@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\dev\\ASPNET\\Sanders_IS370_ASPWEBAPP\\AaronSanders\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{69812591-044B-4ECE-82E0-DE7752741F2E}|AaronSanders.Website\\AaronSanders.Website.csproj|d:\\dev\\aspnet\\sanders_is370_aspwebapp\\aaronsanders\\aaronsanders.website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69812591-044B-4ECE-82E0-DE7752741F2E}|AaronSanders.Website\\AaronSanders.Website.csproj|solutionrelative:aaronsanders.website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{69812591-044B-4ECE-82E0-DE7752741F2E}|AaronSanders.Website\\AaronSanders.Website.csproj|d:\\dev\\aspnet\\sanders_is370_aspwebapp\\aaronsanders\\aaronsanders.website\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{69812591-044B-4ECE-82E0-DE7752741F2E}|AaronSanders.Website\\AaronSanders.Website.csproj|solutionrelative:aaronsanders.website\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{69812591-044B-4ECE-82E0-DE7752741F2E}|AaronSanders.Website\\AaronSanders.Website.csproj|solutionrelative:aaronsanders.website\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69812591-044B-4ECE-82E0-DE7752741F2E}|AaronSanders.Website\\AaronSanders.Website.csproj|d:\\dev\\aspnet\\sanders_is370_aspwebapp\\aaronsanders\\aaronsanders.website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69812591-044B-4ECE-82E0-DE7752741F2E}|AaronSanders.Website\\AaronSanders.Website.csproj|solutionrelative:aaronsanders.website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69812591-044B-4ECE-82E0-DE7752741F2E}|AaronSanders.Website\\AaronSanders.Website.csproj|d:\\dev\\aspnet\\sanders_is370_aspwebapp\\aaronsanders\\aaronsanders.website\\aaronsanders.website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{69812591-044B-4ECE-82E0-DE7752741F2E}|AaronSanders.Website\\AaronSanders.Website.csproj|solutionrelative:aaronsanders.website\\aaronsanders.website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\dev\\ASPNET\\Sanders_IS370_ASPWEBAPP\\AaronSanders\\AaronSanders.Website\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "AaronSanders.Website\\Pages\\Shared\\_Layout.cshtml",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\dev\\ASPNET\\Sanders_IS370_ASPWEBAPP\\AaronSanders\\AaronSanders.Website\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "AaronSanders.Website\\Pages\\Index.cshtml",
@@ -71,25 +71,24 @@
               "RelativeToolTip": "AaronSanders.Website\\Pages\\Index.cshtml",
               "ViewState": "AgIAAA0AAAAAAAAAAAAuwCUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-12T21:57:46.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T21:57:46.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\dev\\ASPNET\\Sanders_IS370_ASPWEBAPP\\AaronSanders\\AaronSanders.Website\\Program.cs",
               "RelativeDocumentMoniker": "AaronSanders.Website\\Program.cs",
               "ToolTip": "D:\\dev\\ASPNET\\Sanders_IS370_ASPWEBAPP\\AaronSanders\\AaronSanders.Website\\Program.cs",
               "RelativeToolTip": "AaronSanders.Website\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwCgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T02:50:07.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "JsonFileProductServices.cs",
               "DocumentMoniker": "D:\\dev\\ASPNET\\Sanders_IS370_ASPWEBAPP\\AaronSanders\\AaronSanders.Website\\Services\\JsonFileProductServices.cs",
               "RelativeDocumentMoniker": "AaronSanders.Website\\Services\\JsonFileProductServices.cs",
@@ -97,12 +96,11 @@
               "RelativeToolTip": "AaronSanders.Website\\Services\\JsonFileProductServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T02:22:01.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T02:22:01.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\dev\\ASPNET\\Sanders_IS370_ASPWEBAPP\\AaronSanders\\AaronSanders.Website\\Models\\Product.cs",
               "RelativeDocumentMoniker": "AaronSanders.Website\\Models\\Product.cs",
@@ -110,12 +108,11 @@
               "RelativeToolTip": "AaronSanders.Website\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T01:49:45.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T01:49:45.679Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "products.json",
               "DocumentMoniker": "D:\\dev\\ASPNET\\Sanders_IS370_ASPWEBAPP\\AaronSanders\\AaronSanders.Website\\wwwroot\\data\\products.json",
               "RelativeDocumentMoniker": "AaronSanders.Website\\wwwroot\\data\\products.json",
@@ -123,12 +120,11 @@
               "RelativeToolTip": "AaronSanders.Website\\wwwroot\\data\\products.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-22T01:47:11.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T01:47:11.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "site.css",
               "DocumentMoniker": "D:\\dev\\ASPNET\\Sanders_IS370_ASPWEBAPP\\AaronSanders\\AaronSanders.Website\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "AaronSanders.Website\\wwwroot\\css\\site.css",
@@ -136,12 +132,11 @@
               "RelativeToolTip": "AaronSanders.Website\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-12T21:47:15.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T21:47:15.3Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "D:\\dev\\ASPNET\\Sanders_IS370_ASPWEBAPP\\AaronSanders\\AaronSanders.Website\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "AaronSanders.Website\\Pages\\Index.cshtml.cs",
@@ -149,8 +144,7 @@
               "RelativeToolTip": "AaronSanders.Website\\Pages\\Index.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T01:12:40.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T01:12:40.653Z"
             },
             {
               "$type": "Document",

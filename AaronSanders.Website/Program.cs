@@ -1,4 +1,6 @@
+using AaronSanders.Website.Models;
 using AaronSanders.Website.Services;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,5 +28,19 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+
+// Added the UseEndpoints extension method lambda expression here
+app.UseEndpoints(endpoints =>
+{
+    // Get the products json with json serializer and map it to /products for the URL
+    app.MapGet("/products", context =>
+    {
+        // It is Services now because ApplicationServices is deprecated
+        var products = app.Services.GetService<JsonFileProductService>().GetProducts();
+        var json = JsonSerializer.Serialize<IEnumerable<Product>>(products);
+        return context.Response.WriteAsync(json);
+        
+    });
+});
 
 app.Run();
