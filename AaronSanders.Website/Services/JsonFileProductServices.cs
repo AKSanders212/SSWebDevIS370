@@ -47,5 +47,40 @@ namespace AaronSanders.Website.Services
 #pragma warning restore CS8603 // Possible null reference return.
 			}
 		}
+
+		public void AddRating(string productID, int rating)
+		{
+			// Getting the products and their ID and if there is a lack of a rating, then we add one
+			var products = GetProducts();
+			var query = products.First(x => x.Id == productID);
+
+			if (query.Ratings == null)
+			{
+				query.Ratings = new int[] { rating };
+			}
+			else
+			{
+				// We add a rating by initializing a new list of ratings, adding a new rating to the list,
+				// then converting the integer rating to be an element in the array through casting it ToArray()
+				var ratings = query.Ratings.ToList();
+				ratings.Add(rating);
+				query.Ratings = ratings.ToArray();
+			}
+
+			using (var outputStream = File.OpenWrite(JsonFileName))
+			{
+				// Opening the Json file as an output stream with write privileges
+				// Serializing the json into text editable format, and then modifying that text format,
+				// to apply changes to the Json products file
+				JsonSerializer.Serialize<IEnumerable<Product>>(
+					new Utf8JsonWriter(outputStream, new JsonWriterOptions
+					{
+						SkipValidation = true,
+						Indented = true
+					}),
+					products
+				);
+			}
+		}
 	}
 }

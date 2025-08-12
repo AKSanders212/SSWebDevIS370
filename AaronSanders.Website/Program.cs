@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddControllers(); // Add the Controllers to the project
 
 // Adding the JsonFileProductServices service from the tutorial
 builder.Services.AddTransient<JsonFileProductService>();
@@ -32,15 +33,19 @@ app.MapRazorPages();
 // Added the UseEndpoints extension method lambda expression here
 app.UseEndpoints(endpoints =>
 {
+    // Map the Razor Pages and the Controllers
+    endpoints.MapRazorPages();
+    endpoints.MapControllers();
+
     // Get the products json with json serializer and map it to /products for the URL
-    app.MapGet("/products", context =>
-    {
-        // It is Services now because ApplicationServices is deprecated
-        var products = app.Services.GetService<JsonFileProductService>().GetProducts();
-        var json = JsonSerializer.Serialize<IEnumerable<Product>>(products);
-        return context.Response.WriteAsync(json);
+    //app.MapGet("/products", context =>
+    //{
+    //    // It is Services now because ApplicationServices is deprecated
+    //    var products = app.Services.GetService<JsonFileProductService>().GetProducts();
+    //    var json = JsonSerializer.Serialize<IEnumerable<Product>>(products);
+    //    return context.Response.WriteAsync(json);
         
-    });
+    //});
 });
 
 app.Run();
