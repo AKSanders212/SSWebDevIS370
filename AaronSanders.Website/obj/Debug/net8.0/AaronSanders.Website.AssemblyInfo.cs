@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AaronSanders.Website")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bc2af66e0ae48b711f6609aadf1b2d1be9c2b4c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e8ee4197bf3d0883f87148845488f028ef8837f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AaronSanders.Website")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AaronSanders.Website")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

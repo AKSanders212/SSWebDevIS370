@@ -1,0 +1,51 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using AaronSanders.Website.Services
+@using AaronSanders.Website.Models
+@inject JsonFileProductService ProductService
+
+
+<!-- For loop to list all of the products on the Razor page view by Title-->
+<!-- Styling Update: nested div containers for the product cards-->
+<!-- I had to use a different div class for the table of rows and columns for styling-->
+<!-- This was because div class card was deprecated in 2025-->
+<div class="container product-grid">
+    <div class="row">
+        @foreach (var product in ProductService.GetProducts())
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-img" style="background-image: url('@product.Image');"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Title</h5>
+                    </div>
+
+                    <!-- Card footer that contains a button on click method that launches the SelectProducts
+                        method, which takes the product.Id as an argument to retrieve the products from our Json
+                        source.
+                    -->
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            <button @onclick="(e => SelectProduct(product.Id))"
+                                    data-toggle="modal" data-target="#productModal" class="btn btn-primary">
+                                More Info
+                            </button>
+                        </small>
+                    </div>
+
+                </div>
+            </div>           
+        }
+    </div>
+</div>
+
+@code {
+    // Retrieve the product based on its productId argument, and will eventually display its content
+    Product selectProduct;
+    string selectProductId;
+
+    void SelectProduct(string productId)
+    {
+        selectProductId = productId;
+        selectProduct = ProductService.GetProducts().First(x => x.Id == productId);
+    }
+}
